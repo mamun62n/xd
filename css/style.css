@@ -1,0 +1,150 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.latter-spacing {
+  letter-spacing: 3px;
+}
+
+.primary-bg-color {
+  background-color: #FF671C;
+  color: #ffffff;
+}
+
+.primary-color {
+  color: #FF671C;
+}
+
+.primary-btn {
+  background-color: #FF671C;
+  color: #ffffff;
+  border-radius: 1.5rem;
+}
+
+body {
+  background-color: #F5F4FA;
+}
+
+.row {
+  padding-top: 10rem;
+}
+
+nav nav .navbar-brand {
+  font-size: 1.6rem;
+}
+
+nav nav ul li a {
+  font-weight: bold;
+}
+
+nav nav #profile a {
+  width: 100px;
+}
+
+nav #navbar-button a .fa-circle-user {
+  font-size: 2.3rem;
+  color: rgba(42, 25, 116, 0.904);
+}
+
+.banner {
+  background: url("../images/home-banner.png") no-repeat top center/cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.banner .banner-text h2 {
+  font-size: 8vw;
+  font-weight: 400;
+}
+
+.banner .banner-text h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.banner .banner-text a .fa-arrow-down-long {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  padding-top: .6rem;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+
+.product {
+  width: 100%;
+  background-image: url("../images/Rectangle.png"), url("../images/Rectangle2.png");
+  background-repeat: no-repeat;
+  background-position: -223% 86%, -148% 72%;
+  background-size: 88% 62%, 80% 38%;
+}
+
+.work {
+  background-image: url("../images/Path.png");
+  background-repeat: no-repeat;
+  background-position: 46% 4%;
+  background-size: 116% 76%;
+}
+
+section {
+  margin-bottom: 18rem;
+}
+
+#location {
+  width: 100%;
+  background-color: #1D2A45;
+  background-image: url("../images/Rectangle3.png"), url("../images/Rectangle4.png"), url("../images/Rectangle4.png");
+  background-repeat: no-repeat;
+  background-position: 224% 24%, 195% 30%, -120%  75%;
+  background-size: 77% 46%, 69% 30%, 69% 32%;
+}
+
+#download-book {
+  position: absolute;
+  left: 148px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#post-item div h2 {
+  font-size: 4rem;
+}
+
+#map img {
+  padding-bottom: 15rem;
+}
+
+#location-text {
+  padding-top: 6rem;
+}
+
+#location-card {
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+@media screen and (max-width: 991px) {
+  #download-book {
+    -webkit-transform: translateY(-40%);
+            transform: translateY(-40%);
+    left: 0;
+  }
+  #location-text {
+    margin-top: 10rem;
+  }
+  #map img {
+    padding-bottom: 0;
+  }
+  #location-card {
+    position: absolute;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
